@@ -17,10 +17,10 @@ hr.titlebar {
 }
 
 h1, h2 {
-  font-weight: 300 !important;
+  font-weight: 300;
 }
 h3, h4, h5, h6 {
-  font-weight: 200 !important;
+  font-weight: 200;
 }
 
 .subtitle {
@@ -36,7 +36,6 @@ h3, h4, h5, h6 {
 }
 
 .sidebar {
-  transition: 0.5s all;
   padding-top: 20px;
   float: left;
   width: 140px;
@@ -45,7 +44,6 @@ h3, h4, h5, h6 {
 }
 
 .sidebar .chapter {
-  transition: 0.5s font-size;
   font-size: 26px;
 }
 
@@ -66,10 +64,14 @@ h3, h4, h5, h6 {
 
 .sidebar ul.chapter-section .section {
   font-size: 20px;
+  line-height: 20px;
+}
+
+.sidebar ul.chapter-section li {
+  padding-bottom: 8px;
 }
 
 .content {
-  transition: 0.5s all;
   position: relative;
   margin-left: 180px;
   max-width: 650px;
@@ -148,4 +150,15 @@ hr.bottombar {
     padding-top: 10px;
     border-top: 1px dashed #ccc;
   }
+}
+
+blockquote {
+  border-left: 6px solid #56f;
+  margin-bottom: 8px;
+  font-size: 16px;
+  font-style: italic;
+  color: #818181;
+  font-family: serif;
+  padding: 4px;
+  padding-left: 20px;
 }
